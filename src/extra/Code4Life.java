@@ -28,10 +28,10 @@ JOptionPane.showMessageDialog(null, "get off of youtube");
 }
 	// 3. If it is greater than or equal to 3 AND less than or equal to 5, tell them
 	// they're a Code Ninja
-else if (r1<=3&&r1<=5) {
+else if (r1>=3&&r1<=5) {
 JOptionPane.showMessageDialog(null,"your a Code Ninja ");	
 }
-else if (r1>=5) {
+else if (r1>5) {
 playBatmanTheme();
 }
 
