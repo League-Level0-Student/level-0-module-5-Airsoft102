@@ -11,10 +11,14 @@ String d =JOptionPane.showInputDialog(null, " How many dimes do you have");
 
  String B =JOptionPane.showInputDialog("how tall are you(in inches)");
 
- int g=Integer.parseInt(B)
+ int g=Integer.parseInt(B);
 if (g<36) {
 	JOptionPane.showMessageDialog(null, "eat you wheatys");
 }
 
+
+for (int i = 0; i < args.length; i++) {
+	 
+}
 }
 }
